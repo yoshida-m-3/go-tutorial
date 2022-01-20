@@ -4,9 +4,7 @@ Go学習用
 
 A Tour of Goの写経
 
-## vim setting
-
-### install go
+## install go
 
 ```
 brew install go
@@ -31,3 +29,11 @@ export PATH=$GOPATH/bin:$PATH
 # 重複パスを登録しない
 typeset -U path PATH
 ```
+
+## vim setting
+
+### install lsp (gopls)
+
+### install plugins
+
+- [mattn/vim-goimports](https://github.com/mattn/vim-goimports)
